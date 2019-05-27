@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/rest.css"/>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			html {
+				font-size: 100px;
+			}
+			.header{
+				/* border: 1px solid red; */
+				font-size: 0.18rem;
+				text-align: center;
+				color: #000000;
+				font-weight: bold;
+				margin-top: 0.18rem;
+			}
+			.navbar{
+				
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				color: #000000;
+				font-size: 0.15rem;
+				font-weight: bold;
+			}
+			.navbar>p:nth-child(3){
+				font-size: 0.18rem;
+				color: #333333;
+				margin-top: 0.14rem;
+			}
+			.navbar>img{
+				width:1.25rem;
+				height: 1.48rem;
+				margin: 0.41rem 0 0.15rem  0;
+			}
+			.background{
+				position: relative;
+				display:flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.background>img{
+				/* background-color: #333333;
+				 */
+				width: 0.99rem;
+				height: 0.99rem;
+				opacity: 0.7;
+				position: absolute;
+				top:-1.8rem;
+				
+			}
+			.content{
+				margin: 0.19rem 0 0.38rem 0;
+				display: flex;
+				flex-direction:column ;
+				align-items: center;
+			}
+			.content .con-top{
+				border: 1px solid #C0C0C0;
+				border-radius: 0.07rem;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				width: 3.05rem;
+				height: 1.5rem;
+			} 
+			.content .con-top> .con-top-left > p{
+				font-size: 0.14rem;
+				margin-top: 0.18rem;
+			}
+			.content .con-top> .con-top-right > p{
+				font-size: 0.14rem;
+				margin-top: 0.18rem;
+			}
+			.content .con-word{
+				display: flex;
+				flex-direction: row;
+				margin-top: 0.13rem;
+			
+			}
+			.content .con-word>p{
+				font-size: 0.11rem;
+				color: #878787;
+				margin:0 0.1rem 0 0.1rem;
+			}
+			.footer{
+				margin-bottom: 0.62rem;
+			}
+			.f-top{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				background-color:#D5D5D5 ;
+			}
+			.f-top>p{
+				font-size:0.12rem;
+			}
+			.f-top>p>a{
+				color:#09bb07 ;
+			}
+			.f-button{
+				/* position: relative; */
+				background: #656565;
+				width: 0.22rem;
+				height: 0.22rem;
+				border-radius:0.03rem;
+				opacity: 0.5;
+			}
+			.f-img{
+				position: relative;
+			}
+			.f-img>img{
+				position: absolute;
+				width: 0.15rem;
+				height: 0.13rem;
+				top: -0.28rem;
+				right: -0.06rem;
+			}
+			.f-bottom ul {
+				margin: 0.22rem 0 0 0;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+			@media screen and (max-width:749px) {
+				html {
+					font-size: 120px;
+					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<p>我送出的</p>
+		</div>
+		<div class="navbar">
+			<img src="img/lihe2.3.png" >
+			<p>年会系列礼盒</p>
+			<p>祝大家新春快乐！</p>
+			<div class="background">
+				<img src="img/weilingwan.png" >
+			</div>
+		</div>
+		<div class="content">
+			<div class="con-top">
+				<div class="con-top-left">
+					<p>赠礼时间</p>
+					<p>礼盒价格</p>
+					<p>盒内礼品</p>
+					<p>礼品总价值</p>
+				</div>
+				<div class="con-top-right">
+					<p>2018-01-05 23:59</p>
+					<p>3000元</p>
+					<p>30件</p>
+					<p>领完后统计</p>
+				</div>
+			</div>	
+			<div class="con-word">
+				<p>礼品可能升级为幸运礼包</p>
+				<p>本期幸运礼品：<span style="color: #FF8C00;">iPhone X</span></p>
+			</div>
+			
+		</div>
+		<div class="footer">
+			<div class="f-top">
+				<p>已经领取3/8</p>
+				<p>未被领完可以<a href="#">继续赠送</a></p>
+			</div>
+			<div class="f-bottom">
+				<ul>
+					<li class="">
+						<p>1</p>
+					</li>
+					<li class="">
+						<div class="f-button">
+							
+						</div>
+						<div class="f-img">
+							<img src="img/皇冠.png" >
+						</div>
+						
+					</li>
+					<li class="">
+						<p>拉布、</p>
+					</li>
+					<li class="">
+						<p>小米电动牙刷*1</p>
+					</li>
+					<liclass="">
+						<p>价值1200元</p>
+					</li>
+				</ul>
+				<ul>
+					<li class="">
+						<p>2</p>
+					</li>
+					<li class="">
+						<div class="f-button">
+							
+						</div>
+						
+					</li>
+					<li class="">
+						<p>拉布、</p>
+					</li>
+					<li class="">
+						<p>小米电动牙刷*1</p>
+					</li>
+					<liclass="">
+						<p>价值1200元</p>
+					</li>
+				</ul>
+				<ul>
+					<li class="">
+						<p>3</p>
+					</li>
+					<li class="">
+						<div class="f-button">
+							
+						</div>
+						
+					</li>
+					<li class="">
+						<p>拉布、</p>
+					</li>
+					<li class="">
+						<p>小米电动牙刷*1</p>
+					</li>
+					<liclass="">
+						<p>价值1200元</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

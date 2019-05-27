@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/rest.css" />
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+
+			html {
+				font-size: 100px;
+			}
+
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+
+			ul li {
+				list-style: none;
+			}
+
+			.header {
+				margin-top: 0.18rem;
+				font-size: 0.18rem;
+				text-align: center;
+				font-weight: bold;
+			}
+
+			.nav-top {
+				/* border: 1px solid red; */
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+
+			.nav-top>a>img {
+				vertical-align: middle;
+				/* width: 0.18rem;
+				height: 0.20rem; */
+			}
+
+			.nav-top>span>a {
+				font-size: 0.12rem;
+			}
+
+			.nav-top>a {
+				/* display: block; */
+				font-size: 0.14rem;
+				color: #656565;
+
+			}
+
+			.nav-content {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin-top: 0.18rem;
+			}
+
+			.nav-content>img {
+				width: 1.15rem;
+				height: 1.25rem;
+			}
+
+			.nav-bottom {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				margin-top: 0.23rem;
+			}
+
+			/* .content{
+				border: 1px solid red;
+			    display: flex;
+			    flex-direction: column;			
+			} */
+			.con-top {
+				display: flex;
+				flex-direction: row;
+				justify-content:space-around ;
+			}
+
+			.con-top>a {
+				color: #656565;
+				font-size: 0.14rem;
+				display: flex;
+				
+				/* margin: 0.25rem 0 0 0.30rem; */
+
+			}
+
+			.con-top>a>img {
+				vertical-align: middle;
+
+			}
+
+			.con-nav {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				margin-top: 0.16rem;
+			}
+
+			.con-nav>a {
+				color: #878787;
+				font-size: 0.14rem;
+				margin-left: 0.25rem;
+
+			}
+
+			.con-nav>a>img {
+				vertical-align: middle;
+
+			}
+
+			.con-content {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				margin-top:0.22rem ;
+			}
+
+			.con-content ul li {
+				font-size: 0.10rem;
+				width: 1.4rem;
+				height: 1.50rem;
+				border: 1px solid #656565;
+				border-radius: 0.06rem;
+				margin-bottom: 0.16rem;
+			}
+
+			.con-con-left {
+				margin-bottom: 0.10rem;
+			}
+
+			.con-con-left>p {
+				margin: 0.10rem 0 0 0.05rem;
+
+			}
+
+			.con-con-left .vip {
+				font-size: 0.15rem;
+			}
+
+			.con-con-left .price {
+				font-size: 0.24rem;
+				color: #656565;
+			}
+
+			.con-con-left .value {
+				font-size: 0.10rem;
+			}
+
+			.con-con-right>img {
+				width: 0.30rem;
+				height: 0.26rem;
+				margin: 0.17rem 0.03rem 0 0;
+			}
+
+			.con-con-bottom>img {
+				margin: 0.06rem 0.62rem 0 0.60rem;
+			}
+
+			.con-footer {
+				text-align: center;
+				font-size: 0.11rem;
+				color: #878787;
+				margin: 0.31rem 0 0.16rem 0;
+				
+			}
+			.footer{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				padding: 0.16rem 0 0.16rem 0;
+			}
+			.count{
+				color: #878787;
+				font-size: 0.11rem;
+			}
+			.total{
+				font-size: 0.21rem;
+				color: #333333;
+				font-weight: bold;
+			}
+			@media screen and (max-width:749px) {
+				html {
+					font-size: 120px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<p>购买礼盒</p>
+		</div>
+		<div class="navbar">
+			<div class="nav-top">
+				<a href="#">
+					<img src="../img/cin_lihe.png">
+					礼盒包装
+				</a>
+				<a href="#"><span>赠礼须知</span></a>
+			</div>
+			<div class="nav-content">
+				<img src="img/lihe.png">
+			</div>
+			<div class="nav-bottom">
+				<img src="img/icon_shuaxin.png">
+			</div>
+		</div>
+		<div class="content">
+			<div class="con-top">
+				<a href="#">
+					<img src="img/cin_lihe.png">
+					盒内包装
+				</a>
+				<a href=""></a>
+			</div>
+			<div class="con-nav">
+				<a href="#">已选数量：9</a>
+				<a href="#">
+					幸运礼品：iPhone X
+					<img src="img/jinggao.png">
+
+				</a>
+			</div>
+			<div class="con-content">
+				<ul>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color: #bcbcbc;">1级品质</p>
+								<p class="price">18元</p>
+								<p class="value">(价值10-30元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_1.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color:#c6cee6;">3级品质</p>
+								<p class="price">68元</p>
+								<p class="value">(价值40-80元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_1.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color: #4cdff1;">5级品质</p>
+								<p class="price">128元</p>
+								<p class="value">(价值380-500元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_7.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color:#c44cf1 ;">7级品质</p>
+								<p class="price">388元</p>
+								<p class="value">(价值980-1500元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_9.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+
+				</ul>
+				<ul>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color: #c9b371;">2级品质</p>
+								<p class="price">38元</p>
+								<p class="value">(价值10-30元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_2.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color: #ffde27;">4级品质</p>
+								<p class="price">98元</p>
+								<p class="value">(价值80-120元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_4.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color: #5c4cf1;">6级品质</p>
+								<p class="price">268元</p>
+								<p class="value">(价值580-1000元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_8.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+					<li>
+						<div class="con-con-top clearfix">
+							<div class="con-con-left fl">
+								<p class="vip" style="color: #f14ce3;">8级品质</p>
+								<p class="price">2018元</p>
+								<p class="value">(价值1999-9999元)</p>
+							</div>
+							<div class="con-con-right fr">
+								<img src="img/icon_vip_10.png">
+							</div>
+
+						</div>
+						<hr>
+						<div class="con-con-bottom">
+							<img src="img/icon_+.png">
+						</div>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+		<div class="con-footer">
+			<p>*暂不支持的收获地区：新建、西藏、青海、港澳台</p>
+		</div>
+		</div>
+		<hr>
+		<div class="footer">
+			<div class="f-left">
+				<p class="count">&nbsp;&nbsp;共9件商品</p>
+				<p class="total">￥0.00元</p>
+			</div>
+			<div class="f-right">
+				<a href="#"><img src="img/buy.png" ></a>
+			</div>
+		</div>
+	</body>
+</html>

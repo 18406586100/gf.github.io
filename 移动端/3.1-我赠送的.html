@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/rest.css"/>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			html {
+				font-size: 100px;
+			}
+			
+			.header{
+				/* border: 1px solid red; */
+				font-size: 0.18rem;
+				text-align: center;
+				color: #000000;
+				font-weight: bold;
+				margin-top: 0.18rem;
+			}
+			.navbar{
+				box-shadow: 0 0 0.04rem #F8F8F8;
+				border-radius: 0.07rem;
+				border: 1px solid #B0B0B0;
+				width: 86%;
+				height: 2rem;
+				margin:0.32rem 7% 0 7% ;
+			}
+			.nav-logo{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin: 0.2rem 0 0.16rem 0;
+			}
+			.nav-logo .count{
+				font-size: 0.15rem;
+				font-weight: bold;
+			}
+			.nav-logo .price{
+				font-size: 0.3rem;
+				font-weight: bold;
+			}
+			.nav-logo>p{
+				margin-top:0.05rem ;
+			}
+			.nav-word{
+				
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				text-align: center;
+			}
+			.nav-word>div>.number{
+				font-size: 0.18rem;
+				color:#656565 ;
+			}
+			.nav-word>div>p{
+				font-size: 0.12rem;
+				color:#656565 ;
+			}
+			.content ul li{
+				box-shadow: 0 0 0.04rem #F8F8F8;
+				border-radius: 0.07rem;
+				border: 1px solid #B0B0B0;
+				width: 86%;
+				height: 0.97rem;
+				margin:0.32rem 7% 0 7% ;
+				display: flex;
+				flex-direction:row ;
+				justify-content: space-around;
+				
+			}
+			.con-left{
+				margin-top:0.15rem ;
+			}
+			
+			.con-left .con-word{
+				font-size:0.15rem ;
+				font-weight: bold;
+				margin-bottom: 0.2rem;
+			}
+			.con-left .con-price{
+				font-size: 0.21rem;
+				font-weight: bold;
+			}
+			.con-right{
+				margin-top:0.15rem ;
+			}
+			.con-right .con-choice{
+				font-size: 0.12rem;
+				margin-bottom: 0.26rem;
+			}
+			.con-right .con-get{
+				font-size: 0.12rem;
+			}
+			.foooter{
+				display: flex;
+				flex-direction:row;
+				justify-content: center;
+				margin: 0.29rem 0 0.2rem 0;
+			}
+			.foooter>a{
+				color:#576b95 ;
+				font-size: 0.13rem;
+			}
+			@media screen and (max-width:749px) {
+				html {
+					font-size: 120px;
+					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<p>我赠送的</p>
+		</div>
+		<div class="navbar">
+			<div class="nav-logo">
+				<img src="img/logo.png" >
+				<p class="count">送礼总价值（元）</p>
+				<p class="price">950</p>
+			</div>
+			<div class="nav-word">
+				<div class="nav-left">
+					<p class="number">1000</p>
+					<p>&nbsp;&nbsp;赠送数量（个）</p>
+				</div>
+				<div class="nav-right">
+					<p class="number">15935</p>
+					<p>&nbsp;&nbsp;购买费用（元）</p>
+				</div>	
+				
+			</div>
+		</div>
+		<div class="content">
+			<ul>
+				<li>
+					<div class="con-left">
+						<p class="con-word">女神专属礼盒</p>
+						<p class="con-price">￥ 999</p>
+					</div>
+					<div class="con-right">
+						<p class="con-choice"><span style="color: #FF8C00;">可领取</span>（0/1）</p>
+						<p class="con-get">收礼人：<span style="font-weight: bold;">拉布、</span></p>
+					</div>
+				</li>
+				<li>
+					<div class="con-left">
+						<p class="con-word">女神专属礼盒</p>
+						<p class="con-price">￥ 666</p>
+					</div>
+					<div class="con-right">
+						<p class="con-choice"><span style="color: limegreen;">可领取</span>（32/32）</p>
+						<p class="con-get">收礼人：<span style="font-weight: bold;">拉布等32人、</span></p>
+					</div>
+				</li>
+				<li>
+					<div class="con-left">
+						<p class="con-word">女神专属礼盒</p>
+						<p class="con-price">￥ 222</p>
+					</div>
+					<div class="con-right">
+						<p class="con-choice"><span style="color:  limegreen;">可领取</span>（0/1）</p>
+						<p class="con-get">收礼人：<span style="font-weight: bold;">拉布、等32人</span></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="foooter">
+			<a href="#">联系客服</a>
+		</div>
+	</body>
+</html>

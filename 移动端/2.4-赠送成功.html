@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/rest.css" />
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+
+			html {
+				font-size: 100px;
+			}
+
+			.header {
+				/* border: 1px solid red; */
+				font-size: 0.18rem;
+				text-align: center;
+				color: #000000;
+				font-weight: bold;
+				margin-top: 0.18rem;
+			}
+			.navbar>img{
+				width: 1.02rem;
+				height: 1.02rem;
+				margin: 0.65rem 0 0.29rem 0;
+			}
+			.navbar{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.navbar>p{
+				font-size: 0.2rem;
+				font-weight: bold;
+			}
+			.content{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin: 1.02rem 0 1.79rem 0;
+			}
+			.content>p{
+				font-size: 0.13rem;
+				color: #878787;
+				text-align: center;
+			}
+			.content>a>img{
+				margin-top: 0.13rem;
+				width: 3rem;
+				height: 0.4rem;
+			}
+			.footer{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				margin-bottom: 0.25rem;
+			}
+			.footer>a{
+				color: #576b95;
+				font-size: 0.13rem;
+			}
+			@media screen and (max-width:749px) {
+				html {
+					font-size: 120px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<p>购买礼盒</p>
+		</div>
+		<div class="navbar">
+			<img src="img/duihao.png" >
+			<p>赠送成功</p>
+		</div>
+		<div class="content">
+			<p>您可以在“我赠送的”查看好友获得的物品，物品在好</p>
+			<p>友填写收获信息后1个工作日内发出 </p>
+			<a href="#"><img src="img/wancheng.png" ></a>
+		</div>
+		<div class="footer">
+			<a href="#">我收到的</a>
+			<a href="#">我赠送的</a>
+		</div>
+	</body>
+</html>

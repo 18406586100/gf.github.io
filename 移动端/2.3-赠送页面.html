@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/rest.css"/>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			html {
+				font-size: 100px;
+			}
+			.header{
+				/* border: 1px solid red; */
+				font-size: 0.18rem;
+				text-align: center;
+				color: #000000;
+				font-weight: bold;
+				margin-top: 0.18rem;
+			}
+			.navbar{
+				
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				color: #000000;
+				font-size: 0.15rem;
+				font-weight: bold;
+			}
+			.navbar>img{
+				width:1.25rem;
+				height: 1.48rem;
+				margin: 0.41rem 0 0.15rem  0;
+			}
+			.background{
+				position: relative;
+				display:flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.background>img{
+				/* background-color: #333333;
+				 */
+				width: 0.99rem;
+				height: 0.99rem;
+				opacity: 0.7;
+				position: absolute;
+				top:-1.5rem;
+				
+			}
+			.content{
+				margin: 0.19rem 0 0.38rem 0;
+				display: flex;
+				flex-direction:column ;
+				align-items: center;
+			}
+			
+			.content .con-word{
+				margin: 0.1rem 0 0.1rem 0;
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-start;
+			}
+			.con-word .word{
+				font-size: 0.12rem;
+				color: #576b95;
+				/* margin: 0.1rem 0 0.1rem 0; */
+				
+			}
+			.content .con-top{
+				border: 1px solid #C0C0C0;
+				border-radius: 0.07rem;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				width: 3.05rem;
+				height: 1.2rem;
+			} 
+			.content .con-top> .con-top-left > p{
+				font-size: 0.14rem;
+				margin-top: 0.18rem;
+			}
+			.content .con-top> .con-top-right > p{
+				font-size: 0.14rem;
+				margin-top: 0.18rem;
+			}
+			.content > textarea{
+				border-radius: 0.05rem;
+				border-color:#E3E3E3;
+				font-size: 0.15rem;
+				color:#656565;
+			}
+			.footer{
+				display: flex;
+				flex-direction:row ;
+				justify-content: center;
+			}
+			.footer>a{
+				background: #32CD32;
+				border-radius:0.07rem ;
+				width: 3rem;
+				/* height: 0.45rem; */
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 0.15rem 0 0.15rem 0 ;
+				margin-bottom: 0.3rem;
+			}	
+			.footer>a>p{
+				color:#fff;
+				font-size:0.18rem;
+				/* text-align: center; */
+			}
+			@media screen and (max-width:749px) {
+				html {
+					font-size: 120px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<p>购买礼盒</p>
+		</div>
+		<div class="navbar">
+			<img src="img/lihe2.3.png" >
+			<p>年会系列礼盒</p>
+			<div class="background">
+				<img src="img/zbwanbi.png" >
+			</div>
+		</div>
+		<div class="content">
+			<div class="con-top">
+				<div class="con-top-left">
+					<p>礼盒价格</p>
+					<p>礼盒价格</p>
+					<p>礼品总价值</p>
+				</div>
+				<div class="con-top-right">
+					<p>198元</p>
+					<p>52件</p>
+					<p>3000~5000元</p>
+				</div>
+			</div>	
+		    <div class="con-word">
+				<div class="word">
+					<p>你的赠言：</p>
+				</div>
+		    	<div class="word1">
+		    		<p>12</p>
+		    	</div>
+				
+		    </div>
+			
+			<textarea rows="7" cols="39">美女，一起吃个早饭
+			</textarea>
+		</div>
+		<div class="footer">
+			<a href="#"><p>赠送</p></a>
+		</div>
+	</body>
+</html>
